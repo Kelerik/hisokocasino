@@ -8,3 +8,4 @@ offlinemode.txt
 index.exe
 config.exe
 testing.py
+*.spec
