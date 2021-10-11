@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e069b54a-0db7-4d42-b468-64260a40722a" name="Default Changelist" comment="" />
+    <list default="true" id="e069b54a-0db7-4d42-b468-64260a40722a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PHt4IAkfhDoLSSTCV3nTAKS3Uk" />
   <component name="ProjectViewState">
@@ -67,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hisokocasino.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,6 +102,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.hisokocasino" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.testing" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.testing" />
@@ -133,9 +143,29 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="976" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1608927393892">
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633979197397">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="976" y="529" key="com.intellij.ide.util.TipDialog/0.0.2560.1410/2560.164.1920.1050@0.0.2560.1410" timestamp="1608927393892" />
+    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1633979197397" />
+    <state width="1094" height="1259" key="GridCell.Tab.0.bottom" timestamp="1633979200378">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1094" height="1259" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1633979200378" />
+    <state width="1094" height="1259" key="GridCell.Tab.0.center" timestamp="1633979200378">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1094" height="1259" key="GridCell.Tab.0.center/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1633979200378" />
+    <state width="1094" height="1259" key="GridCell.Tab.0.left" timestamp="1633979200378">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1094" height="1259" key="GridCell.Tab.0.left/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1633979200378" />
+    <state width="1094" height="1259" key="GridCell.Tab.0.right" timestamp="1633979200378">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1094" height="1259" key="GridCell.Tab.0.right/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1633979200378" />
+    <state x="976" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1633979139303">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="976" y="529" key="com.intellij.ide.util.TipDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1633979139303" />
   </component>
 </project>
