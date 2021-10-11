@@ -1,7 +1,7 @@
 .idea/
 __pycache__/
 build/
-data/
+data/oauth.txt
 errors/
 venv/
 offlinemode.txt
