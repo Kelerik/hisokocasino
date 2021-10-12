@@ -1,6 +1,7 @@
 # hisokocasino
  
 MASTER COMMANDS :
+
     Masters (true masters only)
         !master add <name>
         !master remove <name
@@ -89,6 +90,7 @@ MASTER COMMANDS :
 
 
 GENERAL COMMANDS:
+
     Check gold
         !(rare)gold
         !(rare)gold top5
@@ -168,6 +170,7 @@ GENERAL COMMANDS:
 
 
 SHARED COOLDOWN COMMANDS:
+
     !d<number>
     !calc <num><operation><num>
     !casino
