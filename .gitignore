@@ -5,7 +5,5 @@ data/oauth.txt
 errors/
 venv/
 offlinemode.txt
-index.exe
-config.exe
 testing.py
 *.spec
