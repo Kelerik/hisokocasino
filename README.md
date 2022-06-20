@@ -1,6 +1,44 @@
 # hisokocasino
- 
-MASTER COMMANDS :
+
+[![The Unlicense License Badge](https://img.shields.io/badge/license-The_Unlicense-blue)](https://choosealicense.com/licenses/unlicense/)
+
+This chat bot is a personal project that I wrote for hisokeee, a friend of mine. It is an automated chat bot for his twitch.tv channel.
+
+- [hisokocasino](#hisokocasino)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Bot Commands](#bot-commands)
+  - [Master Commands](#master-commands)
+  - [General Commands](#general-commands)
+  - [Shared Cooldown Commands](#shared-cooldown-commands)
+
+A few caveats:
+
+-  It is currently hard-coded to connect to only his channel and from a his bot account.
+-  Requires manually entering the authentication (oauth) key in a .txt file saved in the /data/ folder.
+-  Requires Python to be installed in order to run. Optionally, a standalone .exe can be created using the included batch scripts (which themselves require Python).
+-  Runs locally on your machine and saves data to your hard drive. No cloud backup or self-updating.
+-  Consider this repository only as a source of inspiration. It was written solely by me, a self-taught python programmer who didn't quite learn ALL of the standard practices at the time. I still did my best to keep it DRY.
+
+# Features
+
+-  User activity tracking, pays currency to active chatters (this bot was made back in the day before Twitch introduced channel points as a native feature).
+-  Includes "fun" games to spend that currency, such as slots, blackjack, roullette, and other miscellaneous betting games.
+-  Many administrative commands to manage users (listed below).
+
+# How to use
+
+This bot was made with the intent of solely being used by hisokeee and his bot account. To connect to a different channel, and from a different account, the code must be modified. In `main.py`, the `irc_nick` sets the account name of the bot, and `irc_chan` sets the account name of the channel.
+
+In the /data/ folder, create an `oauth.txt` file with the contents being the stream key of the bot account wrapped in quotes. Example: `"oauth:asdf1234asdf1234asdf1234asdf12"`
+
+Run the `main.py` file (requires Python to be installed). Optionally, run the standalone .exe if it has been made.
+
+Data is saved as JSON in the /data/ folder.
+
+# Bot Commands
+
+## Master Commands
 
     Masters (true masters only)
         !master add <name>
@@ -88,8 +126,7 @@ MASTER COMMANDS :
         !mute
         !unmute
 
-
-GENERAL COMMANDS:
+## General Commands
 
     Check gold
         !(rare)gold
@@ -168,8 +205,7 @@ GENERAL COMMANDS:
         ! <emote>
         ! <emote <year>
 
-
-SHARED COOLDOWN COMMANDS:
+## Shared Cooldown Commands
 
     !d<number>
     !calc <num><operation><num>
