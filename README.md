@@ -2,7 +2,7 @@
 
 [![The Unlicense License Badge](https://img.shields.io/badge/license-The_Unlicense-blue)](https://choosealicense.com/licenses/unlicense/)
 
-This chat bot is a personal project that I wrote for hisokeee, a friend of mine. It is an automated chat bot for his twitch.tv channel.
+This chat bot is a personal project that I wrote for hisokeee, a friend of mine. It is an automated chat bot for his twitch.tv channel, written in Python.
 
 - [hisokocasino](#hisokocasino)
 - [Features](#features)
